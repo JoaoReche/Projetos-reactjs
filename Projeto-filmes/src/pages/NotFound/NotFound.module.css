@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.error-msg {
+    font-size: 60px;
+    color: #E50914;
+}
+
+.description-error {
+    color: #fff;
+    padding: 10px;
+}
+
+.home-btn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 10px;
+    
+    background-color: #E50914;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.home-btn:hover {
+    color: #cfcfcf;
+}

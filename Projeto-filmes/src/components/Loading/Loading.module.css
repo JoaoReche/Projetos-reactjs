@@ -1,0 +1,12 @@
+.loading-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+}

@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.movie-data {
+    display: flex;
+}
+
+.poster {
+    width: 250px;
+    max-height: 320px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.meta-list {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.meta {
+    color: #fff;
+    padding: 8px;
+}
+
+.vote-average {
+    max-width: 80px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+    background-color: #E50914;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.title {
+    color: #E50914;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    color: #E50914;
+    margin: 15px 8px;
+}
+
+.synopsis {
+    color: #fff;
+    text-align: justify;
+}
+
+.buttons-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.save-remove-button, .player-button {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #E50914;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.save-remove-button {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.player-button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.save-remove-button:hover {
+    color: #6cb6f4;
+}
+
+.trailer-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.trailer-link:hover {
+    color: #6cb6f4;
+}
+
+.btn-icon {
+    width: 22px;
+    padding-right: 5px;
+}

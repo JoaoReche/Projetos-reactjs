@@ -1,0 +1,47 @@
+.container {
+    min-height: 100vh;
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.msg-title {
+    color: #E50914;
+    font-size: 35px;
+    padding: 12px;
+}
+
+.message {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title {
+    padding-left: 45px;
+    color: #fff;
+    margin: 25px 0;
+}
+
+.lista-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 0 45px;
+    margin-top: 7vh;
+}
+
+.poster {
+    max-width: 240px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.poster:hover {
+    transform: scale(1.06);
+}
